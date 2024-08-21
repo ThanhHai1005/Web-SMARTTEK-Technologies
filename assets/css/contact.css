@@ -1,0 +1,70 @@
+.contact {
+    padding: 60px 0;
+    background-image: url(../images/contact/background-contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.contact::after {
+    content: '';
+    background: var(--color-black);
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.contact .inner-top {
+    text-align: center;
+}
+
+.contact h3.inner-title {
+    font-size: 30px;
+    color: white;
+}
+
+.contactLeft {
+    color: white;
+}
+
+.contactForm {
+    background: white;
+}
+
+.contact-main {
+    margin-top: 30px;
+}
+
+.contactForm {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h4.contactHeading {
+    margin-bottom: 30px;
+}
+
+.contactBox {
+    display: flex;
+}
+
+.contactDesc {
+    margin-left: 20px;
+}
+
+.contactIcon a {
+    color: var(--color--gray);
+}
+
+h5.contactTtle {
+    color: gray;
+    font-weight: 600;
+}

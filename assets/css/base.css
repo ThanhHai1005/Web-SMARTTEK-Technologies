@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-green: #04a806;
+    --color-blue: #0932d5;
+    --color-dark-blue: darkblue;
+    --color-dark: #1b0101;
+    --color-black: black;
+    --color-white: white;
+    --color-text: whitesmoke;
+    --color-background: #f6f2f2;
+    --color--gray: gray;
+    --color-background-footer: #171616;
+
+    --color-linear: linear-gradient(127deg, #237436c7 0%, #10de3fd4 91%);
+    --font: 'DM Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.section {
+    padding: 80px 0 0 0;
+}
+
+.inner-wrap {
+    border: 1px solid var(--color-green);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.inner-wrap .inner-title {
+    text-align: center;
+    display: inline-block;
+}
+
+.inner-wrap h4.inner-heading {
+    border: 1px solid var(--color-green);
+    display: flex;
+    position: relative;
+    top: -15px;
+    background: var(--color-white);
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 0;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

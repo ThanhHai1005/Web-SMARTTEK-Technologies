@@ -1,0 +1,29 @@
+.vision .inner-wrap .inner-desc {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inner-images {
+    width: 100%;
+    max-height: 128px;
+    max-width: 128px;
+    margin: 0 auto 20px;
+    border: 5px solid var(--color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.inner-images img {
+    width: 100%;
+}
+
+h5.inner-captions {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

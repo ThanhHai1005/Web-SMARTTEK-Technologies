@@ -1,0 +1,342 @@
+.smart-timekeeping {
+    height: 80vh;
+    background-image: url(../images/giai-phap-cham-cong-thong-minh/Facial_Recognition1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.smart-timekeeping::after {
+    content: '';
+    background: var(--color-black);
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.smart-timekeeping .inner-banner {
+    margin: 0 auto;
+    max-width: 610px;
+    text-align: center;
+}
+
+.smart-timekeeping .inner-title {
+    font-size: 47px;
+    margin-bottom: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:540px) {
+    .smart-timekeeping .inner-title {
+        font-size: 30px;
+    }
+}
+
+/* ///////////////// sectionOne ///////////////// */
+.sectionOne .inner-top {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sectionOne h3.inner-name {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 750;
+    color: var(--color-dark-blue);
+}
+
+
+.sectionOne h3.inner-name span {
+    color: var(--color-green);
+}
+
+.sectionOne h3.inner-heading {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* /////////////////End sectionOne ///////////////// */
+
+
+/* ///////////////// header-two ///////////////// */
+
+.header-two .main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-two {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-two .menu {
+    border: 2px solid #e7e7e7;
+    background: white;
+}
+
+.header-two .inner-menu ul {
+    justify-content: center;
+    display: flex;
+    padding: 20px 50px;
+}
+
+.header-two .inner-menu ul li {
+    margin-left: 20px;
+}
+
+.header-two .inner-menu ul li a {
+    color: var(--color-black);
+}
+
+.header-two .inner-menuMobi {
+    display: none;
+}
+
+@media(max-width:767.5px) {
+    .header-two .inner-menu {
+        display: none;
+    }
+
+    .header-two .inner-menuMobi {
+        display: block;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px 0;
+    }
+
+    .header-two .inner-menuMobi a {
+        color: var(--color-gray);
+        text-decoration: none;
+    }
+}
+
+/* /////////////////End header-two ///////////////// */
+
+
+/* ///////////// overview /////////////////// */
+.overview {
+    padding: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview .inner-heading {
+    text-align: left;
+    font-size: 29px;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+.overview-desc {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.overview-desc ul li {
+    text-align: left;
+}
+
+.overview .inner-images {
+    padding: 25px;
+}
+
+.overview .inner-images img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.overview .inner-wrap-overview {
+    border-radius: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* /////////////End overview /////////////////// */
+
+
+/* /////////////// .function ///////////////////// */
+
+.function {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 243, 244);
+}
+
+.function .function-row {
+    margin-top: 30px;
+}
+
+.function .inner-head {
+    font-size: 29px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.function .inner-heading {
+    display: flex;
+    align-items: center;
+}
+
+.function .inner-heading h3 {
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    color: darkcyan;
+    text-align: left;
+}
+
+
+.function .inner-heading p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #6c757d;
+    text-align: left;
+    font-weight: 700;
+}
+
+.function .inner-images img {
+    width: 100%;
+}
+
+
+@media(max-width:767.5px) {
+    .function .function-row {
+        margin-top: 0;
+    }
+
+    .function .inner-heading {
+        margin-top: 30px;
+    }
+
+}
+
+
+@media(max-width:1200px) {
+    .function .inner-images {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:467px) {
+    .function .inner-heading {
+        margin-top: 20px;
+    }
+
+    .function .inner-heading h3 {
+        font-size: 30px;
+    }
+}
+
+/* /////////////// End function ///////////////////// */
+
+
+/* ///////////////// systemModel //////////////////// */
+
+.systemModel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+
+.systemModel .inner-head {
+    font-size: 29px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.systemModel .inner-images {
+    padding: 0 50px;
+}
+
+
+.systemModel .inner-images img {
+    width: 100%;
+}
+
+
+@media(max-width:540px) {
+    .systemModel .inner-images {
+        padding: 0;
+    }
+}
+
+/* ///////////////// End systemModel //////////////////// */
+
+
+/* ////////////////// diagram //////////////////// */
+.diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: rgb(241, 243, 244);
+}
+
+.diagram .inner-head {
+    font-size: 29px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.diagram-img {
+    margin-top: 30px;
+}
+
+.diagram .inner-images img {
+    width: 100%;
+}
+
+
+.diagram .diagram-img .inner-desc {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media(max-width:1200px) {
+    .diagram .diagram-img .diagram-order {
+        order: 1;
+        margin-bottom: 30px;
+    }
+}
+
+/* //////////////////End diagram //////////////////// */
